@@ -119,6 +119,18 @@ merge충돌이 났을 때, git이 어떤 파일을 merge 할 수 없었는지 �
 
 
 
+### 브랜치 관리
+
+```shell
+git branch #브랜치의 목록을 보여준다.
+git branch -v #브랜치의 마지막 커밋을 보여준다.
+git branch --merged #체크아웃한 브랜치를 기준으로 merge 된 브랜치인지 아닌지 필터링 할 수있다.
+git branch -d testing #merge 하지 않은 브랜치를 강제 삭제
+
+```
+
+
+
 ## 모르는 것들
 
 
